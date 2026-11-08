@@ -48,15 +48,18 @@ then fix this file.
 4. **Forms hide their own header**:
    `"header": {"title": {"visibility": "hidden"}, "description": {"visibility": "hidden"}}`.
    Put any heading in a text element above the form.
-5. **Calm, light design**: white or pale canvas, white cards with thin borders,
+5. **Controls hide nulls**: `"nullValues": "hidden"` on every list control
+   (workbooks and reports), so pickers have no "null" option. Text controls
+   drop the key; that's fine.
+6. **Calm, light design**: white or pale canvas, white cards with thin borders,
    the brand primary desaturated for large fills (exact brand hex only for the
    logo and small accents), horizontal bars instead of rotated labels. No
    full-width dark gradient bands or electric primaries.
-6. **Ship a working version first**, then optimise. Don't run long probe loops
+7. **Ship a working version first**, then optimise. Don't run long probe loops
    before the user sees something.
-7. **Say plainly what kind of change you made**: formula-only, new custom SQL,
+8. **Say plainly what kind of change you made**: formula-only, new custom SQL,
    or data-model change. Users ask.
-8. **Agents never name internals** (data-model names, schemas, table names) in
+9. **Agents never name internals** (data-model names, schemas, table names) in
    replies; plain business terms only.
 
 ## Workflow
