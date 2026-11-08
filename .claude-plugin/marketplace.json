@@ -4,8 +4,8 @@
     "name": "Kunal Pandit"
   },
   "metadata": {
-    "description": "Pixel-perfect, print-quality Sigma reports built from code and styled after real annual-report designs. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
-    "version": "0.1.0"
+    "description": "Sigma Computing agent skills for pixel-perfect reports and field-tested workbook building. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -14,8 +14,8 @@
         "source": "url",
         "url": "https://github.com/kunalpanditsigma/sigma-pixel-perfect-report-skills"
       },
-      "description": "Pixel-perfect, print-quality Sigma reports built from code and styled after real annual-report designs. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
-      "version": "0.1.0",
+      "description": "Sigma Computing agent skills for pixel-perfect reports and field-tested workbook building. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
+      "version": "0.2.0",
       "author": {
         "name": "Kunal Pandit"
       },
@@ -28,7 +28,10 @@
         "pdf",
         "annual-report",
         "print",
-        "ai-agents"
+        "ai-agents",
+        "workbooks",
+        "data-apps",
+        "plugins"
       ],
       "category": "data"
     }

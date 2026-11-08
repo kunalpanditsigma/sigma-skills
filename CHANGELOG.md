@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.0 - 2026-11-07
+
+Adds `sigma-workbook-field-notes`.
+
+### Added
+- **`sigma-workbook-field-notes`** - Field-tested rules for building and editing Sigma workbooks from code, collected over about 30 builds on staging and AWS, GCP and Azure production orgs. Covers house defaults (read the live spec before editing, drill-down columns on every element, a tabbed Data page, hidden form headers), the gotchas that break builds most often, and references for spec shapes, formulas and sources, data apps, plugins, and API/QA.
+
 ## v0.1.0 - 2026-11-07
 
 First release of the `sigma-pixel-perfect-report` skill.

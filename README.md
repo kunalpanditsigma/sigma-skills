@@ -1,6 +1,6 @@
-# Sigma pixel-perfect report skill
+# Sigma report and workbook skills
 
-An agent skill for [Sigma Computing](https://sigmacomputing.com) that builds multi-page, print-quality reports (PDF) from code with `POST /v2/reports/spec`, styled after real annual-report designs. The same skill content runs in **Claude Code**, **Cursor**, **OpenAI Codex**, and **Snowflake Cortex Code**.
+Agent skills for [Sigma Computing](https://sigmacomputing.com): pixel-perfect, print-quality reports built from code, and field-tested rules for building workbooks, data apps and plugins through the REST API. The same skill content runs in **Claude Code**, **Cursor**, **OpenAI Codex**, and **Snowflake Cortex Code**.
 
 This repository follows the layout of [`sigmacomputing/sigma-agent-skills`](https://github.com/sigmacomputing/sigma-agent-skills). To see what shipped in each release, see [`CHANGELOG.md`](./CHANGELOG.md).
 
@@ -37,11 +37,12 @@ To update to the latest version:
 
 ## Skills
 
-Agents activate this automatically based on the user's request.
+Agents activate these automatically based on the user's request.
 
 | Skill | Description |
 |-------|-------------|
 | **sigma-pixel-perfect-report** | Build a pixel-perfect, print-quality Sigma report (PDF) from code, styled after a chosen annual-report design: pick from a gallery of 456 annual reports, measure your own PDF or brand spec, or let the agent choose. |
+| **sigma-workbook-field-notes** | Field-tested rules and API gotchas for building and editing Sigma workbooks from code: spec shapes that verify but render wrong, formulas and sources, input tables and write-back actions, forms, agents, plugins, embedding, and QA without warehouse reads. Use alongside the `sigma-workbooks` skill in [`sigmacomputing/sigma-agent-skills`](https://github.com/sigmacomputing/sigma-agent-skills). |
 
 ## Requirements
 
