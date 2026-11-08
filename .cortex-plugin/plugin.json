@@ -1,0 +1,11 @@
+{
+  "name": "sigma-pixel-perfect-report",
+  "version": "0.1.0",
+  "description": "Pixel-perfect, print-quality Sigma reports built from code and styled after real annual-report designs. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
+  "author": {
+    "name": "Kunal Pandit"
+  },
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "repository": "https://github.com/kunalpanditsigma/sigma-pixel-perfect-report-skills"
+}

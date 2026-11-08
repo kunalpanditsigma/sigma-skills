@@ -1,0 +1,35 @@
+{
+  "id": "motorola-1967",
+  "title": "Motorola, Inc. — Annual Report 1967",
+  "company": "Motorola, Inc.",
+  "year": 1967,
+  "pages": 9,
+  "status": "reference — fully built and verified against the original scans",
+  "page_set": [
+    "cover", "inside cover (quote + signature)", "contents",
+    "letter to shareholders (2 cols)", "letter continued (3 cols + signatures)",
+    "consolidated balance sheet — assets + notes 1-2",
+    "balance sheet — liabilities & equity + notes 3-6",
+    "statement of earnings + auditors' opinion",
+    "source & use of funds + ten year summary grid"
+  ],
+  "palette": {
+    "cover_stock": "#A88430",
+    "letter_stock": "#B09030",
+    "inside_cover": "#20202A",
+    "financial_paper": "#F0F0E8",
+    "contents_paper": "#E8E8E0",
+    "display_ink": "#5E2313",
+    "body_ink": "#1A1B14"
+  },
+  "grid": {"page": [816, 1056], "left": 85, "right": 774, "row_pitch": 23.0,
+           "numcol_w": 110, "body_size": 11, "display_size": 21},
+  "best_for": "annual reports, shareholder letters, any comparative two-year financial statement set with dot leaders and ruled totals",
+  "features": ["dot leaders", "two-year comparative columns", "ruled + double-ruled totals",
+               "currency marks aligned per column", "wide year-by-metric matrix",
+               "alpha-keyed signatures and logo", "full-bleed colour fields"],
+  "builder": "build.py",
+  "deviations": ["no justified text (renderer has no text-align)",
+                 "note-size type is loosely leaded (fixed 22.4px line pitch)",
+                 "illustrated division pages (original pp. 8-20) not reproduced"]
+}

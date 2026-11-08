@@ -1,0 +1,48 @@
+{
+  "id": "cummins-1989",
+  "title": "Cummins Engine Company \u2014 Annual Report 1989",
+  "designer": "Paul Rand",
+  "gallery_slug": "cummins-1989-553a66",
+  "status": "built \u2014 worked example of the live-data path",
+  "example": "Big Buys Annual Report 2025 (SE_DEMO_DB.BIG_BUYS.BIG_BUYS_POS)",
+  "pages": 6,
+  "page_set": [
+    "cover",
+    "financial highlights (live KPIs + live trend table)",
+    "statement of trading results (typeset ledger)",
+    "trading detail (live bound tables)",
+    "five year summary (typeset matrix)",
+    "basis of preparation"
+  ],
+  "palette": {
+    "cover_stock": "#E6E6E3",
+    "interior_stock": "#F5F5F2",
+    "ink": "#2B2A2E",
+    "display_blue": "#283F79",
+    "red": "#621625",
+    "ochre": "#7F5930",
+    "green": "#26412B",
+    "rule": "#9A9A98"
+  },
+  "palette_provenance": "stock = modal colour of the cover scan; the four accents are the mean of the darkest third of each hue cluster of Rand's exploded-engine drawing; interior stock is deliberately near-white because a bound table's row fill is always white and cannot be themed",
+  "best_for": "data-heavy reports wanting a restrained modernist frame and a ready-made 4-colour categorical palette",
+  "features": [
+    "build-time warehouse figures typeset as a ledger",
+    "render-time bound tables and KPIs in the same document",
+    "per-row currency marks in a wide matrix",
+    "cropped cover artwork matched to the page stock",
+    "top-N live table with the tail accounted for in a footnote",
+    "live KPI band that still matches the page",
+    "live bound tables framed as typeset 'data plates'"
+  ],
+  "builder": "build.py",
+  "deviations": [
+    "cover artwork is Rand's drawing, reused as the template's signature",
+    "interior layout is inferred: only the cover was available to measure",
+    "data pages use a near-white sheet rather than the cover's grey: a bound table's cell/header fill is always white and cannot be tinted, so the stock is chosen to meet it"
+  ],
+  "data_paths": {
+    "render_time": "highlights KPIs, five-year trend, product family and store region tables \u2014 all bound, re-query on every export",
+    "build_time": "statement of trading results and five-year summary \u2014 resolved by warehouse.query() then typeset, which is what allows dot leaders and ruled totals"
+  }
+}
