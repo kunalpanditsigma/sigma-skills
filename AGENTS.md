@@ -7,8 +7,8 @@ Agent skills for [Sigma Computing](https://sigmacomputing.com). The same skill c
 ### Claude Code
 
 ```
-/plugin marketplace add https://github.com/kunalpanditsigma/sigma-pixel-perfect-report-skills.git
-/plugin install sigma-pixel-perfect-report@sigma-pixel-perfect-report
+/plugin marketplace add https://github.com/kunalpanditsigma/sigma-skills.git
+/plugin install sigma-skills@sigma-skills
 ```
 
 ### Cursor
@@ -24,7 +24,7 @@ Codex auto-loads this `AGENTS.md` and the `skills/` directory from the repo root
 Inside a Cortex Code session:
 
 ```
-/skill add https://github.com/kunalpanditsigma/sigma-pixel-perfect-report-skills.git
+/skill add https://github.com/kunalpanditsigma/sigma-skills.git
 ```
 
 To update to the latest version:

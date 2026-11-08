@@ -1,21 +1,21 @@
 {
-  "name": "sigma-pixel-perfect-report",
+  "name": "sigma-skills",
   "owner": {
     "name": "Kunal Pandit"
   },
   "metadata": {
     "description": "Sigma Computing agent skills for pixel-perfect reports and field-tested workbook building. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
-      "name": "sigma-pixel-perfect-report",
+      "name": "sigma-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/kunalpanditsigma/sigma-pixel-perfect-report-skills"
+        "url": "https://github.com/kunalpanditsigma/sigma-skills"
       },
       "description": "Sigma Computing agent skills for pixel-perfect reports and field-tested workbook building. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Kunal Pandit"
       },

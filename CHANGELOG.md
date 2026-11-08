@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.1 - 2026-11-07
+
+Renamed the repository and plugin to `sigma-skills`, since it now holds more than the report skill.
+
+### Changed
+- Repository renamed from `sigma-pixel-perfect-report-skills` to `sigma-skills` (GitHub redirects the old URL). Install with `/plugin install sigma-skills@sigma-skills`.
+
 ## v0.2.0 - 2026-11-07
 
 Adds `sigma-workbook-field-notes`.
