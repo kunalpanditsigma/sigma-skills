@@ -1,7 +1,7 @@
 {
   "name": "sigma-skills",
-  "version": "0.2.1",
-  "description": "Sigma Computing agent skills for pixel-perfect reports and field-tested workbook building. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
+  "version": "0.3.0",
+  "description": "Sigma Computing agent skills for pixel-perfect reports, field-tested workbook building, and custom plugins. Works in Claude Code, Cursor, OpenAI Codex, and Snowflake Cortex Code.",
   "author": {
     "name": "Kunal Pandit"
   },

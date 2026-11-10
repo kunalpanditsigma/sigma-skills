@@ -84,7 +84,7 @@
   data URIs work for images.
 - Formula-driven colours are rejected everywhere (control background, button
   fill, container background).
-- `tabbed-container` `tabBar` key is rejected.
+- `tabbed-container` `tabBar: {"alignment": "justify"}` stretches tabs across the container (verified GCP prod 2026-11-09, set in the UI and round-trips); `"center"` also verifies; `"start"`/`"end"` are rejected; omit it for the default left alignment.
 - Settings navigation: `{"pageHeader": ..., "pageSidebar": "enabled", "primary": "sidebar"}`;
   sidebar panel width `small|medium|large` (medium is the default and is omitted
   from GET, not dropped). Navigation `optionStyle.style` accepts only `"pill"`.

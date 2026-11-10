@@ -38,6 +38,7 @@ To update to the latest version:
 Agents activate these automatically based on the user's request.
 
 - **sigma-pixel-perfect-report** — Build a pixel-perfect, print-quality Sigma report (PDF) from code via `POST /v2/reports/spec`, styled after a chosen annual-report design.
-- **sigma-workbook-field-notes** — Field-tested rules and API gotchas for building and editing Sigma workbooks, data apps and plugins from code.
+- **sigma-workbook-field-notes** — Field-tested rules and API gotchas for building and editing Sigma workbooks, and data apps from code.
+- **sigma-plugins** — Design, build, host, register and wire custom Sigma plugins, with a starter template and test harness.
 
 See [`README.md`](./README.md) for full details.

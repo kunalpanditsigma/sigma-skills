@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.3.0 - 2026-11-10
+
+Adds `sigma-plugins`.
+
+### Added
+- **`sigma-plugins`** - Workflow, rules, a tested single-file starter template (`templates/plugin/`), a local test harness with click testing, wiring reference (hosting, registration, spec binding, feed tables), and a catalogue of 12 plugin patterns built between September and November 2026.
+
+### Changed
+- **`sigma-workbook-field-notes`** - Plugin notes moved to `sigma-plugins`. The hidden Data page now gets one tab per category (several tables each) rather than one per table, and every tabbed container stretches its tabs with `tabBar: {"alignment": "justify"}`.
+
 ## v0.2.1 - 2026-11-07
 
 Renamed the repository and plugin to `sigma-skills`, since it now holds more than the report skill.

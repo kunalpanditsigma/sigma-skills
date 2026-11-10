@@ -1,0 +1,7 @@
+[
+  {"label": "North", "group": "East", "value": 1840, "detail": "12 sites"},
+  {"label": "South", "group": "East", "value": 1320, "detail": "9 sites"},
+  {"label": "Central", "group": "West", "value": 2210, "detail": "15 sites"},
+  {"label": "Coast", "group": "West", "value": 960, "detail": "6 sites"},
+  {"label": "Mountain", "group": "West", "value": 640, "detail": "4 sites"}
+]

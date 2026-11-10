@@ -40,11 +40,14 @@ then fix this file.
      Hidden base-level columns on a grouped table do not expand its rows.
    Plugins are exempt.
 3. **The hidden Data page is one tabbed container**: a title text, then a
-   `tabbed-container` spanning the page with one tab per data element in
-   pipeline order (raw sources → write-back input tables → modelled children →
-   grouped tables → worklists), each tab a one-line note (what it is, grain,
-   what reads it) above the table, and a last "Selection state" tab holding the
-   hidden selection and drawer controls.
+   `tabbed-container` spanning the page with one tab per **category** (what the
+   tables feed, e.g. "Pipeline", "Forecast", "Funnel"), several tables stacked
+   per tab in pipeline order (raw sources → write-back input tables → modelled
+   children → grouped tables → worklists), each under a one-line note (what it
+   is, grain, what reads it), and a last "Selection state" tab holding the
+   hidden selection and drawer controls. Not one tab per table.
+   **Every tabbed container (Data page, drawers, in-page tabs) stretches its
+   tabs across the container**: `"tabBar": {"alignment": "justify"}`.
 4. **Forms hide their own header**:
    `"header": {"title": {"visibility": "hidden"}, "description": {"visibility": "hidden"}}`.
    Put any heading in a text element above the form.
@@ -111,6 +114,8 @@ then fix this file.
   traps, performance, row-level security.
 - `reference/data-apps.md`: input tables, actions, forms, modals and drawers,
   agents and agent tools, email, write-back read by a report.
-- `reference/plugins.md`: plugin SDK bindings, hosting, headless testing.
 - `reference/api-and-qa.md`: endpoints worth knowing, embedding, QA without
   warehouse reads, round-trip drift.
+
+Plugins have their own skill: `sigma-plugins` (workflow, template, test
+harness, catalogue).
